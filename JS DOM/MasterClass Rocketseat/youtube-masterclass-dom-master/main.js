@@ -11,6 +11,6 @@ const keys = document.querySelectorAll(".key")
 
 // keyboard type
 window.addEventListener("keydown", function(event){
-  console.log(event) // event listener
+  console.log(event)
 
 })
