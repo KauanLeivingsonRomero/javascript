@@ -1,16 +1,21 @@
 // get all keys
-
 const keys = document.querySelectorAll(".key")
 
-
 // play notes
-// function playNote(event)
+function playNote(event) {
+  // key code
 
+  // typed or pressed key
+
+  // if key exists
+
+  // play audio
+}
 
 // click with mouse
+keys.forEach( function(key) {
+  console.log(key.dataset.note)
+})
 
 // keyboard type
-window.addEventListener("keydown", function(event){
-  console.log(event)
-
-})
+window.addEventListener("keydown", playNote)
